@@ -1,0 +1,40 @@
+@charset "UTF-8";
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: rgb(121, 145, 165);
+
+}
+
+#pl {
+    text-align: center;
+}
+
+.sc {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 2em;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all {
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.411);
+
+    width: 12em;
+    height: 20em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.all > p {
+
+
+}
+
