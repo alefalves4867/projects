@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Form</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="text" name="age" id="age"> 
+                    </div>
+                    <div>
+                        <label for="role">Which option best describes your current role?</label>
+                        <select name="role" id="role">
+                            <option selected disabled>Select current role</option>
+                            <option value="Student">Student</option>
+                            <option value="FullTimeJob">Full Time Job</option>
+                            <option value="FullTimeLearner">Full Time Learner</option>
+                            <option value="PreferNotToSay">Prefer not to say</option>
+                            <option value="option">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="boher">level:</label>
+                        <div id="boher">
+                            <label for="Junior">Junior</label>
+                            <input type="radio" name="level" checked value="Junior" id="Junior">
+                            <label for="Pleno">Pleno</label>
+                            <input type="radio" name="level" value="Pleno" id="Pleno">
+                            <label for="Senior">Senior</label>
+                            <input type="radio" name="level" value="Senior" id="Senior">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="improve">What would you like to improve in the development area?</label>
+                        <div id="immprove">
+                            <input type="checkbox" id="tech1" name="tech1" value="tech1">
+                            <label for="tech1">Front-End</label>
+                            <input type="checkbox" id="tech2" name="tech2" value="tech2">
+                            <label for="tech2">Back-End</label>
+                            <input type="checkbox" id="tech1" name="tech" value="tech3">
+                            <label for="tech3">Full-Stack</label>
+                            <input type="checkbox" id="tech4" name="tech4" value="tech4">
+                            <label for="tech4">Software Development</label>    
+                        </div>
+
+                    </div>
+                    <div>
+                        <label for="tell">Tell me a little about your experience in the chosen areas:</label>
+                        <textarea name="experience" id="experience" cols="30" rows="6" style="width: 26em;"></textarea>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
