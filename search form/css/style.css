@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0px;
 }
 /*
     --color1: #324FA2;
@@ -13,6 +13,7 @@
     --color1: #324FA2;
     --color2: #323A4E;
     --color3: #2f33299a;
+    --color4: #75A333;
 
 }
 
@@ -71,7 +72,7 @@ fieldset {
     margin: 0.45em 0em 1em 0em;
     width: 100%;
     height: 2.3rem;
-    border: 1px solid rgba(0, 0, 0, 0.507);
+    border: .75px solid rgba(0, 0, 0, 0.507);
 }
 
 #boher {
@@ -84,4 +85,21 @@ fieldset {
     display: flex;
     flex-direction: column;
     margin: .5em 0em 1em 0em;
+}
+
+#experience{
+    height: 8em;
+    border: .25px solid rgba(0, 0, 0, 0.186) !important;
+}
+
+input[type=submit]{
+    background-color: var(--color4);
+    padding: .25em .3em .25em .3em;
+    width: 100%;
+    height: 3em;
+    color: white;
+    border: .05em solid rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    border-radius: .25em;
+    font-weight: bold;
 }
