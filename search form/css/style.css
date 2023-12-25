@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/*
+    --color1: #324FA2;
+    --color2: #323A4E;
+    --color3: #2F3329;*/
+:root {
+    --color1: #324FA2;
+    --color2: #323A4E;
+    --color3: #2f33299a;
+
+}
+
+.lbl {
+    display: block;
+}
+
+body {
+    background-color: var(--color1);
+}
+
+main {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#title > h1 {
+    margin-top: 0.5em;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #00000042;
+}
+
+#title > p {
+    margin-top: 0.5em;
+    font-size: 1em;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #00000042;
+
+}
+
+#formK {
+    width: 35em;
+   
+}
+
+fieldset {
+    background-color: var(--color3);
+    text-align: left;
+    padding: 2em 1.25em 2em 1.25em;
+    font-size: 1.1em;
+    border-radius: 2.5px;
+    margin-bottom: 2px;
+}
+
+#name, #email, #age, #role, #experience {
+    margin: 0.45em 0em 1em 0em;
+    width: 100%;
+    height: 2.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+
+#boher {
+    display: flex;
+    flex-direction: column;
+    margin: .5em 0em 1em 0em;
+}
+
+#improve {
+    display: flex;
+    flex-direction: column;
+    margin: .5em 0em 1em 0em;
+}

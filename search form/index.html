@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Form</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
 
     </header>
     <main>
-        <section>
+        <section id="formK">
+            <div id="title">
+                <h1>Form DEVs</h1>
+                <p>Thank you for your participation</p>
+            </div>
             <form action="#" method="post">
                 <fieldset>
                     <div>
-                        <label for="name">Name:</label>
+                        <label for="name" class="lbl"><strong>Name:</strong></label>
                         <input type="text" name="name" id="name" required>
                     </div>
                     <div>
-                        <label for="email">Email:</label>
+                        <label for="email" class="lbl"><strong>Email:</strong></label>
                         <input type="email" name="email" id="email" required>
                     </div>
                     <div>
-                        <label for="age">Age</label>
-                        <input type="text" name="age" id="age" required> 
+                        <label for="age" class="lbl"><strong>Age</strong></label>
+                        <input type="number" name="age" id="age" required> 
                     </div>
                     <div>
-                        <label for="role">Which option best describes your current role?</label>
+                        <label for="role" class="lbl"><strong>Which option best describes your current role?</strong></label>
                         <select name="role" id="role" required>
-                            <option selected disabled>Select current role</option>
+                            <option selected disabled><strong>Select current role</strong></option>
                             <option value="Student">Student</option>
                             <option value="FullTimeJob">Full Time Job</option>
                             <option value="FullTimeLearner">Full Time Learner</option>
@@ -37,38 +42,56 @@
                         </select>
                     </div>
                     <div>
-                        <label for="boher">level:</label>
+                        <label for="boher" class="lbl"><strong>level:</strong></label>
                         <div id="boher">
-                            <label for="Junior">Junior</label>
-                            <input type="radio" name="level" checked value="Junior" id="Junior">
-                            <label for="Pleno">Pleno</label>
-                            <input type="radio" name="level" value="Pleno" id="Pleno">
-                            <label for="Senior">Senior</label>
-                            <input type="radio" name="level" value="Senior" id="Senior">
+                            
+                            <div>
+                                <input type="radio" name="level" checked value="Junior" id="Junior">
+                                <label for="Junior">Junior</label>
+                            </div>
+                            
+                            <div>
+                                <input type="radio" name="level" value="Pleno" id="Pleno">
+                                <label for="Pleno">Pleno</label>
+                            </div>
+                            
+                            <div>
+                                <input type="radio" name="level" value="Senior" id="Senior">
+                                <label for="Senior">Senior</label>
+                            </div>
                         </div>
                     </div>
 
                     <div>
-                        <label for="improve">What would you like to improve in the development area?</label>
-                        <div id="immprove">
-                            <input type="checkbox" id="tech1" name="tech1" value="tech1">
-                            <label for="tech1">Front-End</label>
-                            <input type="checkbox" id="tech2" name="tech2" value="tech2">
-                            <label for="tech2">Back-End</label>
-                            <input type="checkbox" id="tech1" name="tech" value="tech3">
-                            <label for="tech3">Full-Stack</label>
-                            <input type="checkbox" id="tech4" name="tech4" value="tech4">
-                            <label for="tech4">Software Development</label>    
+                        <label for="improve" class="lbl"><strong>What would you like to improve in the development area?</strong></label>
+                        <div id="improve">
+                            <div>
+                                <input type="checkbox" id="tech1" name="tech1" value="tech1">
+                                <label for="tech1">Front-End</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="tech2" name="tech2" value="tech2">
+                                <label for="tech2">Back-End</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="tech1" name="tech" value="tech3">
+                                <label for="tech3">Full-Stack</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="tech4" name="tech4" value="tech4">
+                                <label for="tech4">Software Development</label>
+                            </div> 
                         </div>
 
                     </div>
                     <div>
-                        <label for="tell">Tell me a little about your experience in the chosen areas:</label>
-                        <textarea name="experience" id="experience" cols="30" rows="6" style="width: 26em;"></textarea>
+                        <label for="tell" class="lbl"><strong>Tell me a little about your experience in the chosen areas:</strong></label>
+                        <textarea name="experience" id="experience" cols="30" rows="6" ></textarea>
                     </div>
+                    <input type="submit" value="Submit">
                 </fieldset>
 
-                <input type="submit" value="Submit">
+                
             </form>
         </section>
     </main>
